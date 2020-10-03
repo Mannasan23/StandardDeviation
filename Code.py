@@ -3,9 +3,7 @@ import math
 
 with open('data.csv', newline='') as f:
     reader = csv.reader(f)
-    #print(reader)
     file_data = list(reader)
-    #print(file_data)
 
 data = file_data[0]
 
